@@ -58,7 +58,7 @@ async def on_member_join(member):
     global ida
     if member.dm_channel == None:
         await member.create_dm()
-    message = await member.dm_channel.send("React to get a role!")
+    message = await member.dm_channel.send("React to get a role! You can type !role if you want more later")
     ida = message.id
     await message.add_reaction("<:f2icon:856622883110518784>")
     await message.add_reaction("<:f1icon:856622870359703582>")
