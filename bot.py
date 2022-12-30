@@ -89,4 +89,4 @@ async def on_message(message):
 
 
 
-bot.run("ODU4MDY1MjY2NTQ0ODY5Mzg2.YNYtjQ.4OYE5U1WrPyPO-YaMS6At6FPS8M")
+bot.run("TOKEN")
